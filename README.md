@@ -1,5 +1,5 @@
 # SintillaNetPrinting
-Add print functionallity to ScintillaNet 3.x https://github.com/jacobslusser
+Add print functionallity to ScintillaNet 3.x https://github.com/jacobslusser/ScintillaNET
 
 To Use it:
 
