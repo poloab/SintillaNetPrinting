@@ -4,6 +4,7 @@ Add print functionallity to ScintillaNet 3.x https://github.com/jacobslusser
 To Use it:
 
 ScintillaNetPrinting.Printing printer = new ScintillaNetPrinting.Printing(Scintilla);
+
 printer.PageSettings = new ScintillaPrinting.PageSettings() 
 { 
     ColorMode = ScintillaNePrinting.PageSettings.PrintColorMode.BlackOnWhite 
