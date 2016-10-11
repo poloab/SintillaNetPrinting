@@ -3,6 +3,9 @@ Add print functionallity to ScintillaNet 3.x https://github.com/jacobslusser/Sci
 
 To Use it:
 
+Include this folder in your porject along with ScintillaNet 3.x and:
+
+
 ScintillaNetPrinting.Printing printer = new ScintillaNetPrinting.Printing(Scintilla);
 
 printer.PageSettings = new ScintillaPrinting.PageSettings() 
