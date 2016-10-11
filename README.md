@@ -8,7 +8,7 @@ Include ScintillaNetPrinting folder in your porject along with ScintillaNet 3.x 
 
 ScintillaNetPrinting.Printing printer = new ScintillaNetPrinting.Printing(ScintillaNet);
 
-printer.PageSettings = new ScintillaPrinting.PageSettings() 
+printer.PageSettings = new ScintillaNetPrinting.PageSettings() 
 { 
     ColorMode = ScintillaNePrinting.PageSettings.PrintColorMode.BlackOnWhite 
 };
