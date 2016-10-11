@@ -6,7 +6,7 @@ To Use it:
 Include ScintillaNetPrinting folder in your porject along with ScintillaNet 3.x and reference it:
 
 
-ScintillaNetPrinting.Printing printer = new ScintillaNetPrinting.Printing(Scintilla);
+ScintillaNetPrinting.Printing printer = new ScintillaNetPrinting.Printing(ScintillaNet);
 
 printer.PageSettings = new ScintillaPrinting.PageSettings() 
 { 
