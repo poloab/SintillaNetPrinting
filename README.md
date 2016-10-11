@@ -3,7 +3,7 @@ Add print functionallity to ScintillaNet 3.x https://github.com/jacobslusser/Sci
 
 To Use it:
 
-Include this folder in your porject along with ScintillaNet 3.x and:
+Include this folder in your porject along with ScintillaNet 3.x and reference it:
 
 
 ScintillaNetPrinting.Printing printer = new ScintillaNetPrinting.Printing(Scintilla);
@@ -19,4 +19,4 @@ or
 
 printer.PrintPreview();
 
-This is a copy and adaptation of original printing functionallity of ScintillaNet 2.6 version .
+This is a copy and adaptation of original printing functionallity of ScintillaNet 2.6 version.
