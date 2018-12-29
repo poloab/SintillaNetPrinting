@@ -10,7 +10,7 @@ namespace ScintillaPrinting
 	public class Printing 
 	{
         public Scintilla scintilla { get; set; }
-        internal Printing(Scintilla scintilla)
+        public Printing(Scintilla scintilla)
 		{
 			_printDocument = new PrintDocument(scintilla);
 		}
