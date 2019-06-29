@@ -3,6 +3,8 @@ using System.ComponentModel;
 using System.Windows.Forms;
 using System.Drawing.Printing;
 using ScintillaNET;
+using System.Reflection;
+using System.Drawing;
 
 namespace ScintillaPrinting
 {
@@ -10,7 +12,7 @@ namespace ScintillaPrinting
 	public class Printing 
 	{
         public Scintilla scintilla { get; set; }
-        internal Printing(Scintilla scintilla)
+        public Printing(Scintilla scintilla)
 		{
 			_printDocument = new PrintDocument(scintilla);
 		}
@@ -53,7 +55,7 @@ namespace ScintillaPrinting
                 return true;
 
             }
-            catch (Exception ex)
+            catch
             {
                 return false;
             }
@@ -62,7 +64,16 @@ namespace ScintillaPrinting
 		public DialogResult PrintPreview()
 		{
 			PrintPreviewDialog ppd = new PrintPreviewDialog();
-			ppd.WindowState = FormWindowState.Maximized;
+            try // don't allow the program to crash if this fails..
+            {
+                // get the icon from the executable using this library..
+                ppd.Icon = Icon.ExtractAssociatedIcon(Assembly.GetCallingAssembly().Location);
+            }
+            catch 
+            {
+                // do nothing..
+            }
+            ppd.WindowState = FormWindowState.Maximized;
 
 			ppd.Document = _printDocument;
 			return ppd.ShowDialog();
