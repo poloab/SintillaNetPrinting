@@ -1,0 +1,51 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2012/06/nuspec.xsd">
+  <metadata>
+    <id>ScintillaNetPrinting.SUO</id>
+    <version>1.0.1</version>
+    <authors>VPKSoft</authors>
+    <requireLicenseAcceptance>true</requireLicenseAcceptance>
+    <license type="expression">MIT</license>
+    <licenseUrl>https://licenses.nuget.org/MIT</licenseUrl>
+    <icon>vpksoft_logo.png</icon>
+    <projectUrl>https://github.com/VPKSoft/ScintillaNetPrinting</projectUrl>
+    <description>Printing library for the ScintillaNET.</description>
+    <releaseNotes>See: https://github.com/VPKSoft/ScintillaNetPrinting</releaseNotes>
+    <copyright>Copyright © VPKSoft 2020</copyright>
+    <tags>wrapper ScintillaNET printing</tags>
+    <repository type="git" url="https://github.com/VPKSoft/ScintillaNetPrinting" />
+    <dependencies>
+      <group targetFramework=".NETFramework4.0">
+        <dependency id="unofficial.ScintillaNET" version="3.6.51" exclude="Build,Analyzers" />
+      </group>
+    </dependencies>
+    <frameworkAssemblies>
+      <frameworkAssembly assemblyName="Microsoft.CSharp" targetFramework=".NETFramework4.0" />
+      <frameworkAssembly assemblyName="System.Data.DataSetExtensions" targetFramework=".NETFramework4.0" />
+    </frameworkAssemblies>
+    <contentFiles>
+      <files include="any/net40/License.txt" buildAction="Content" />
+      <files include="any/net40/SciLexer.dll" buildAction="Content" />
+      <files include="any/net40/SciLexer.exp" buildAction="Content" />
+      <files include="any/net40/SciLexer.lib" buildAction="Content" />
+      <files include="any/net40/SciLexer.pdb" buildAction="Content" />
+      <files include="any/net40/version.txt" buildAction="Content" />
+    </contentFiles>
+  </metadata>
+  <files>
+    <file src="C:\Files\GitHub\ScintillaNetPrinting\ScintillaNetPrinting.SUO\bin\Release\net40\ScintillaNetPrinting.SUO.dll" target="lib\net40\ScintillaNetPrinting.SUO.dll" />
+    <file src="C:\Users\Petteri Kautonen\.nuget\packages\unofficial.scintillanet\3.6.51\contentFiles\any\net40\License.txt" target="content\License.txt" />
+    <file src="C:\Users\Petteri Kautonen\.nuget\packages\unofficial.scintillanet\3.6.51\contentFiles\any\net40\License.txt" target="contentFiles\any\net40\License.txt" />
+    <file src="C:\Users\Petteri Kautonen\.nuget\packages\unofficial.scintillanet\3.6.51\contentFiles\any\net40\SciLexer.dll" target="content\SciLexer.dll" />
+    <file src="C:\Users\Petteri Kautonen\.nuget\packages\unofficial.scintillanet\3.6.51\contentFiles\any\net40\SciLexer.dll" target="contentFiles\any\net40\SciLexer.dll" />
+    <file src="C:\Users\Petteri Kautonen\.nuget\packages\unofficial.scintillanet\3.6.51\contentFiles\any\net40\SciLexer.exp" target="content\SciLexer.exp" />
+    <file src="C:\Users\Petteri Kautonen\.nuget\packages\unofficial.scintillanet\3.6.51\contentFiles\any\net40\SciLexer.exp" target="contentFiles\any\net40\SciLexer.exp" />
+    <file src="C:\Users\Petteri Kautonen\.nuget\packages\unofficial.scintillanet\3.6.51\contentFiles\any\net40\SciLexer.lib" target="content\SciLexer.lib" />
+    <file src="C:\Users\Petteri Kautonen\.nuget\packages\unofficial.scintillanet\3.6.51\contentFiles\any\net40\SciLexer.lib" target="contentFiles\any\net40\SciLexer.lib" />
+    <file src="C:\Users\Petteri Kautonen\.nuget\packages\unofficial.scintillanet\3.6.51\contentFiles\any\net40\SciLexer.pdb" target="content\SciLexer.pdb" />
+    <file src="C:\Users\Petteri Kautonen\.nuget\packages\unofficial.scintillanet\3.6.51\contentFiles\any\net40\SciLexer.pdb" target="contentFiles\any\net40\SciLexer.pdb" />
+    <file src="C:\Users\Petteri Kautonen\.nuget\packages\unofficial.scintillanet\3.6.51\contentFiles\any\net40\version.txt" target="content\version.txt" />
+    <file src="C:\Users\Petteri Kautonen\.nuget\packages\unofficial.scintillanet\3.6.51\contentFiles\any\net40\version.txt" target="contentFiles\any\net40\version.txt" />
+    <file src="C:\Files\GitHub\ScintillaNetPrinting\ScintillaNetPrinting\vpksoft_logo.png" target="vpksoft_logo.png" />
+  </files>
+</package>

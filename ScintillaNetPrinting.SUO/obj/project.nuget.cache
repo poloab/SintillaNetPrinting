@@ -1,0 +1,10 @@
+{
+  "version": 2,
+  "dgSpecHash": "jMQ7cF6C2HHynQyo7lFr3Khq92Xy/coiiO+VksNfD6IsHJQ3VGuQ5RQz5KRqT8L2ySB3nX74OeJzX00AAis34w==",
+  "success": true,
+  "projectFilePath": "C:\\Files\\GitHub\\ScintillaNetPrinting\\ScintillaNetPrinting.SUO\\ScintillaNetPrinting.SUO.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\Petteri Kautonen\\.nuget\\packages\\unofficial.scintillanet\\3.6.51\\unofficial.scintillanet.3.6.51.nupkg.sha512"
+  ],
+  "logs": []
+}
