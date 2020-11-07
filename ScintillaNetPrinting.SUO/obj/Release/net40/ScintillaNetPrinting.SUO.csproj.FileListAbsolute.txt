@@ -1,0 +1,10 @@
+C:\Files\GitHub\ScintillaNetPrinting\ScintillaNetPrinting.SUO\bin\Release\net40\ScintillaNetPrinting.SUO.dll
+C:\Files\GitHub\ScintillaNetPrinting\ScintillaNetPrinting.SUO\obj\Release\net40\ScintillaNetPrinting.SUO.csprojAssemblyReference.cache
+C:\Files\GitHub\ScintillaNetPrinting\ScintillaNetPrinting.SUO\obj\Release\net40\ScintillaNetPrinting.SUO.AssemblyInfoInputs.cache
+C:\Files\GitHub\ScintillaNetPrinting\ScintillaNetPrinting.SUO\obj\Release\net40\ScintillaNetPrinting.SUO.AssemblyInfo.cs
+C:\Files\GitHub\ScintillaNetPrinting\ScintillaNetPrinting.SUO\bin\Release\net40\ScintillaNetPrinting.SUO.pdb
+C:\Files\GitHub\ScintillaNetPrinting\ScintillaNetPrinting.SUO\bin\Release\net40\ScintillaNET.dll
+C:\Files\GitHub\ScintillaNetPrinting\ScintillaNetPrinting.SUO\obj\Release\net40\ScintillaNetPrinting.SUO.csproj.CoreCompileInputs.cache
+C:\Files\GitHub\ScintillaNetPrinting\ScintillaNetPrinting.SUO\obj\Release\net40\ScintillaNetPrinting.SUO.csproj.CopyComplete
+C:\Files\GitHub\ScintillaNetPrinting\ScintillaNetPrinting.SUO\obj\Release\net40\ScintillaNetPrinting.SUO.dll
+C:\Files\GitHub\ScintillaNetPrinting\ScintillaNetPrinting.SUO\obj\Release\net40\ScintillaNetPrinting.SUO.pdb

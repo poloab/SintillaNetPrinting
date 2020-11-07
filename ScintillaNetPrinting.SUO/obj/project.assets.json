@@ -1,0 +1,139 @@
+{
+  "version": 3,
+  "targets": {
+    ".NETFramework,Version=v4.0": {
+      "unofficial.ScintillaNET/3.6.51": {
+        "type": "package",
+        "frameworkAssemblies": [
+          "Microsoft.CSharp",
+          "System.Data.DataSetExtensions",
+          "System.Windows.Forms"
+        ],
+        "compile": {
+          "lib/net40/ScintillaNET.dll": {}
+        },
+        "runtime": {
+          "lib/net40/ScintillaNET.dll": {}
+        },
+        "contentFiles": {
+          "contentFiles/any/net40/License.txt": {
+            "buildAction": "Content",
+            "codeLanguage": "any",
+            "copyToOutput": false
+          },
+          "contentFiles/any/net40/SciLexer.dll": {
+            "buildAction": "Content",
+            "codeLanguage": "any",
+            "copyToOutput": false
+          },
+          "contentFiles/any/net40/SciLexer.exp": {
+            "buildAction": "Content",
+            "codeLanguage": "any",
+            "copyToOutput": false
+          },
+          "contentFiles/any/net40/SciLexer.lib": {
+            "buildAction": "Content",
+            "codeLanguage": "any",
+            "copyToOutput": false
+          },
+          "contentFiles/any/net40/SciLexer.pdb": {
+            "buildAction": "Content",
+            "codeLanguage": "any",
+            "copyToOutput": false
+          },
+          "contentFiles/any/net40/version.txt": {
+            "buildAction": "Content",
+            "codeLanguage": "any",
+            "copyToOutput": false
+          }
+        }
+      }
+    }
+  },
+  "libraries": {
+    "unofficial.ScintillaNET/3.6.51": {
+      "sha512": "fv41HMCWWHQKiSJF8c+sbSMLetuZkMjsvhVTyjqiejvqF6bWLcPpkOvyU+ed1DX0yhZsUSzsudwS4gmGzBMT7Q==",
+      "type": "package",
+      "path": "unofficial.scintillanet/3.6.51",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "content/License.txt",
+        "content/SciLexer.dll",
+        "content/SciLexer.exp",
+        "content/SciLexer.lib",
+        "content/SciLexer.pdb",
+        "content/version.txt",
+        "contentFiles/any/net40/License.txt",
+        "contentFiles/any/net40/SciLexer.dll",
+        "contentFiles/any/net40/SciLexer.exp",
+        "contentFiles/any/net40/SciLexer.lib",
+        "contentFiles/any/net40/SciLexer.pdb",
+        "contentFiles/any/net40/version.txt",
+        "lib/net40/ScintillaNET.dll",
+        "lib/net40/ScintillaNET.xml",
+        "unofficial.scintillanet.3.6.51.nupkg.sha512",
+        "unofficial.scintillanet.nuspec",
+        "vpksoft_logo.png"
+      ]
+    }
+  },
+  "projectFileDependencyGroups": {
+    ".NETFramework,Version=v4.0": [
+      "unofficial.ScintillaNET >= 3.6.51"
+    ]
+  },
+  "packageFolders": {
+    "C:\\Users\\Petteri Kautonen\\.nuget\\packages\\": {},
+    "C:\\Microsoft\\Xamarin\\NuGet\\": {},
+    "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder": {}
+  },
+  "project": {
+    "version": "1.0.1",
+    "restore": {
+      "projectUniqueName": "C:\\Files\\GitHub\\ScintillaNetPrinting\\ScintillaNetPrinting.SUO\\ScintillaNetPrinting.SUO.csproj",
+      "projectName": "ScintillaNetPrinting.SUO",
+      "projectPath": "C:\\Files\\GitHub\\ScintillaNetPrinting\\ScintillaNetPrinting.SUO\\ScintillaNetPrinting.SUO.csproj",
+      "packagesPath": "C:\\Users\\Petteri Kautonen\\.nuget\\packages\\",
+      "outputPath": "C:\\Files\\GitHub\\ScintillaNetPrinting\\ScintillaNetPrinting.SUO\\obj\\",
+      "projectStyle": "PackageReference",
+      "fallbackFolders": [
+        "C:\\Microsoft\\Xamarin\\NuGet\\",
+        "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+      ],
+      "configFilePaths": [
+        "C:\\Users\\Petteri Kautonen\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
+      ],
+      "originalTargetFrameworks": [
+        "net40"
+      ],
+      "sources": {
+        "C:\\Files\\VPKSoftNuGet": {},
+        "https://api.nuget.org/v3/index.json": {}
+      },
+      "frameworks": {
+        "net40": {
+          "projectReferences": {}
+        }
+      },
+      "warningProperties": {
+        "warnAsError": [
+          "NU1605"
+        ]
+      }
+    },
+    "frameworks": {
+      "net40": {
+        "dependencies": {
+          "unofficial.ScintillaNET": {
+            "target": "Package",
+            "version": "[3.6.51, )"
+          }
+        },
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.403\\RuntimeIdentifierGraph.json"
+      }
+    }
+  }
+}

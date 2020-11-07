@@ -1,0 +1,62 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<Project ToolsVersion="14.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup Condition=" '$(ExcludeRestorePackageImports)' != 'true' ">
+    <RestoreSuccess Condition=" '$(RestoreSuccess)' == '' ">True</RestoreSuccess>
+    <RestoreTool Condition=" '$(RestoreTool)' == '' ">NuGet</RestoreTool>
+    <ProjectAssetsFile Condition=" '$(ProjectAssetsFile)' == '' ">$(MSBuildThisFileDirectory)project.assets.json</ProjectAssetsFile>
+    <NuGetPackageRoot Condition=" '$(NuGetPackageRoot)' == '' ">$(UserProfile)\.nuget\packages\</NuGetPackageRoot>
+    <NuGetPackageFolders Condition=" '$(NuGetPackageFolders)' == '' ">C:\Users\Petteri Kautonen\.nuget\packages\;C:\Microsoft\Xamarin\NuGet\;C:\Program Files\dotnet\sdk\NuGetFallbackFolder</NuGetPackageFolders>
+    <NuGetProjectStyle Condition=" '$(NuGetProjectStyle)' == '' ">PackageReference</NuGetProjectStyle>
+    <NuGetToolVersion Condition=" '$(NuGetToolVersion)' == '' ">5.7.0</NuGetToolVersion>
+  </PropertyGroup>
+  <ItemGroup Condition=" '$(ExcludeRestorePackageImports)' != 'true' ">
+    <SourceRoot Include="$([MSBuild]::EnsureTrailingSlash($(NuGetPackageFolders)))" />
+  </ItemGroup>
+  <PropertyGroup>
+    <MSBuildAllProjects>$(MSBuildAllProjects);$(MSBuildThisFileFullPath)</MSBuildAllProjects>
+  </PropertyGroup>
+  <ItemGroup Condition=" '$(ExcludeRestorePackageImports)' != 'true' ">
+    <Content Include="$(NuGetPackageRoot)unofficial.scintillanet\3.6.51\contentFiles\any\net40\License.txt" Condition="Exists('$(NuGetPackageRoot)unofficial.scintillanet\3.6.51\contentFiles\any\net40\License.txt')">
+      <NuGetPackageId>unofficial.ScintillaNET</NuGetPackageId>
+      <NuGetPackageVersion>3.6.51</NuGetPackageVersion>
+      <NuGetItemType>Content</NuGetItemType>
+      <Private>False</Private>
+      <Link>License.txt</Link>
+    </Content>
+    <Content Include="$(NuGetPackageRoot)unofficial.scintillanet\3.6.51\contentFiles\any\net40\SciLexer.dll" Condition="Exists('$(NuGetPackageRoot)unofficial.scintillanet\3.6.51\contentFiles\any\net40\SciLexer.dll')">
+      <NuGetPackageId>unofficial.ScintillaNET</NuGetPackageId>
+      <NuGetPackageVersion>3.6.51</NuGetPackageVersion>
+      <NuGetItemType>Content</NuGetItemType>
+      <Private>False</Private>
+      <Link>SciLexer.dll</Link>
+    </Content>
+    <Content Include="$(NuGetPackageRoot)unofficial.scintillanet\3.6.51\contentFiles\any\net40\SciLexer.exp" Condition="Exists('$(NuGetPackageRoot)unofficial.scintillanet\3.6.51\contentFiles\any\net40\SciLexer.exp')">
+      <NuGetPackageId>unofficial.ScintillaNET</NuGetPackageId>
+      <NuGetPackageVersion>3.6.51</NuGetPackageVersion>
+      <NuGetItemType>Content</NuGetItemType>
+      <Private>False</Private>
+      <Link>SciLexer.exp</Link>
+    </Content>
+    <Content Include="$(NuGetPackageRoot)unofficial.scintillanet\3.6.51\contentFiles\any\net40\SciLexer.lib" Condition="Exists('$(NuGetPackageRoot)unofficial.scintillanet\3.6.51\contentFiles\any\net40\SciLexer.lib')">
+      <NuGetPackageId>unofficial.ScintillaNET</NuGetPackageId>
+      <NuGetPackageVersion>3.6.51</NuGetPackageVersion>
+      <NuGetItemType>Content</NuGetItemType>
+      <Private>False</Private>
+      <Link>SciLexer.lib</Link>
+    </Content>
+    <Content Include="$(NuGetPackageRoot)unofficial.scintillanet\3.6.51\contentFiles\any\net40\SciLexer.pdb" Condition="Exists('$(NuGetPackageRoot)unofficial.scintillanet\3.6.51\contentFiles\any\net40\SciLexer.pdb')">
+      <NuGetPackageId>unofficial.ScintillaNET</NuGetPackageId>
+      <NuGetPackageVersion>3.6.51</NuGetPackageVersion>
+      <NuGetItemType>Content</NuGetItemType>
+      <Private>False</Private>
+      <Link>SciLexer.pdb</Link>
+    </Content>
+    <Content Include="$(NuGetPackageRoot)unofficial.scintillanet\3.6.51\contentFiles\any\net40\version.txt" Condition="Exists('$(NuGetPackageRoot)unofficial.scintillanet\3.6.51\contentFiles\any\net40\version.txt')">
+      <NuGetPackageId>unofficial.ScintillaNET</NuGetPackageId>
+      <NuGetPackageVersion>3.6.51</NuGetPackageVersion>
+      <NuGetItemType>Content</NuGetItemType>
+      <Private>False</Private>
+      <Link>version.txt</Link>
+    </Content>
+  </ItemGroup>
+</Project>

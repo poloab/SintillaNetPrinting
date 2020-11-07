@@ -1,0 +1,56 @@
+{
+  "format": 1,
+  "restore": {
+    "C:\\Files\\GitHub\\ScintillaNetPrinting\\ScintillaNetPrinting.SUO\\ScintillaNetPrinting.SUO.csproj": {}
+  },
+  "projects": {
+    "C:\\Files\\GitHub\\ScintillaNetPrinting\\ScintillaNetPrinting.SUO\\ScintillaNetPrinting.SUO.csproj": {
+      "version": "1.0.1",
+      "restore": {
+        "projectUniqueName": "C:\\Files\\GitHub\\ScintillaNetPrinting\\ScintillaNetPrinting.SUO\\ScintillaNetPrinting.SUO.csproj",
+        "projectName": "ScintillaNetPrinting.SUO",
+        "projectPath": "C:\\Files\\GitHub\\ScintillaNetPrinting\\ScintillaNetPrinting.SUO\\ScintillaNetPrinting.SUO.csproj",
+        "packagesPath": "C:\\Users\\Petteri Kautonen\\.nuget\\packages\\",
+        "outputPath": "C:\\Files\\GitHub\\ScintillaNetPrinting\\ScintillaNetPrinting.SUO\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Microsoft\\Xamarin\\NuGet\\",
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\Petteri Kautonen\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net40"
+        ],
+        "sources": {
+          "C:\\Files\\VPKSoftNuGet": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net40": {
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net40": {
+          "dependencies": {
+            "unofficial.ScintillaNET": {
+              "target": "Package",
+              "version": "[3.6.51, )"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.403\\RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}

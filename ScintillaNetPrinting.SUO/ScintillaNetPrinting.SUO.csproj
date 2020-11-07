@@ -1,0 +1,47 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+  <PropertyGroup>
+    <TargetFramework>net40</TargetFramework>
+    <AssemblyTitle>ScintillaNetPrinting.SUO</AssemblyTitle>
+    <Product>ScintillaNetPrinting.SUO</Product>
+    <Copyright>Copyright © VPKSoft 2020</Copyright>
+    <OutputPath>bin\$(Configuration)\</OutputPath>
+    <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
+    <PackageRequireLicenseAcceptance>true</PackageRequireLicenseAcceptance>
+    <Authors>VPKSoft</Authors>
+    <Company>VPKSoft</Company>
+    <Description>Printing library for the ScintillaNET.</Description>
+    <PackageLicenseExpression>MIT</PackageLicenseExpression>
+    <PackageProjectUrl>https://github.com/VPKSoft/ScintillaNetPrinting</PackageProjectUrl>
+    <PackageIcon>vpksoft_logo.png</PackageIcon>
+    <RepositoryUrl>https://github.com/VPKSoft/ScintillaNetPrinting</RepositoryUrl>
+    <RepositoryType>git</RepositoryType>
+    <PackageTags>wrapper ScintillaNET printing</PackageTags>
+    <PackageReleaseNotes>See: https://github.com/VPKSoft/ScintillaNetPrinting</PackageReleaseNotes>
+    <Version>1.0.1</Version>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugType>full</DebugType>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="..\ScintillaNetPrinting\PageInformation.cs" Link="PageInformation.cs" />
+    <Compile Include="..\ScintillaNetPrinting\PageSettings.cs" Link="PageSettings.cs" />
+    <Compile Include="..\ScintillaNetPrinting\PrintDocument.cs" Link="PrintDocument.cs" />
+    <Compile Include="..\ScintillaNetPrinting\Printing.cs" Link="Printing.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="..\ScintillaNetPrinting\vpksoft_logo.png">
+      <Pack>True</Pack>
+      <PackagePath></PackagePath>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <PackageReference Include="unofficial.ScintillaNET" Version="3.6.51" />
+  </ItemGroup>
+</Project>
